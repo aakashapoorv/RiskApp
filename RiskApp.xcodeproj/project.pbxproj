@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		712B72346AE2104059948DD0 /* RKLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7916B637AA2A9ABF6AF2 /* RKLeftMenuViewController.m */; };
+		712B7294EA66DC53D2CAE0E4 /* RKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B71519891CF207525280A /* RKRootViewController.m */; };
+		712B73B3235DCF841BE79D6B /* RKNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B74DC4E7646648A533243 /* RKNotificationCenter.m */; };
+		712B75235C71D21B32061E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B70CEBFD8E325CFD8FF7D /* AppDelegate.m */; };
+		712B75E754D4B0E0537348CA /* RKSessionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7E40D5D714C339BA61B7 /* RKSessionAgent.m */; };
+		712B761BADFFC8D549A4CC81 /* RKSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7B4719F5B4ACF5B79D30 /* RKSignupViewController.m */; };
+		712B76B6FDF9E89758E172C5 /* RKLoginAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7E30D21A241F2859382D /* RKLoginAgent.m */; };
+		712B779574C853D4AC6B7A71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712B7956A128332BCE511F18 /* Main.storyboard */; };
+		712B782E03DCC8B78580FA3B /* RiskAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B776C3DAF557CECFF2004 /* RiskAppTests.m */; };
+		712B78532A646B2707090ED2 /* RKApiFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B78DA148B9423C88A0D7C /* RKApiFactory.m */; };
+		712B7921DF8D441C905A8D2E /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B74612E62805F8272C1C8 /* RESideMenu.m */; };
+		712B794812D9718DC5E04F9A /* RKConnectionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B741204DD66D9C92C2CAC /* RKConnectionAgent.m */; };
+		712B799023E758BE94E99BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712B76D44C7954719D855A40 /* LaunchScreen.storyboard */; };
+		712B799CBA77C40EDF7D49C5 /* RiskAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7CB748FDF8AF915C90DC /* RiskAppUITests.m */; };
+		712B79F51B123AC5DFB9157E /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B783FE64F84EDB1F1AE14 /* RECommonFunctions.m */; };
+		712B7C20AE889B7CADE7CCA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712B776DE851D47891AE5055 /* Assets.xcassets */; };
+		712B7C4FA0B7E7B95DC67E41 /* RKConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7072BC85A2B104F1492C /* RKConstants.m */; };
+		712B7E2B59BC1E2BB547A994 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7FADE79292E759689DC4 /* main.m */; };
+		712B7E9C0DF3CB817349FCBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B734BE4E0C27D9D6CF701 /* ViewController.m */; };
+		712B7F1559CE01D46542A1B2 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B755B1480053E4238AB15 /* UIViewController+RESideMenu.m */; };
+		712B7F41A84D07EB8C3E9285 /* RKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7A28D059B87F6E75E01C /* RKLoginViewController.m */; };
+		7ED9DABA1BBC3FDD00B58255 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9DAB91BBC3FDD00B58255 /* CoreData.framework */; };
+		7EE986B71BBA43490019A58A /* RKPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE986B61BBA43490019A58A /* RKPhotoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7EE986C01BBA62830019A58A /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE986B91BBA62830019A58A /* UIImage+Alpha.m */; settings = {ASSET_TAGS = (); }; };
+		7EE986C11BBA62840019A58A /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE986BB1BBA62830019A58A /* UIImage+Resize.m */; settings = {ASSET_TAGS = (); }; };
+		7EE986C21BBA62840019A58A /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE986BD1BBA62830019A58A /* UIImage+RoundedCorner.m */; settings = {ASSET_TAGS = (); }; };
+		7EE986C31BBA62840019A58A /* UIAlertView+error.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE986BF1BBA62830019A58A /* UIAlertView+error.m */; settings = {ASSET_TAGS = (); }; };
+		7EE986C61BBA788C0019A58A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE986C51BBA788C0019A58A /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		712B7145F9E416EB7D43122B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 712B7DDDDA3A1610CA2E8436 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 712B75E591C33825E4DE8A84;
+			remoteInfo = RiskApp;
+		};
+		712B7D9519794A9D0B8BF179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 712B7DDDDA3A1610CA2E8436 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 712B75E591C33825E4DE8A84;
+			remoteInfo = RiskApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		712B7072BC85A2B104F1492C /* RKConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKConstants.m; sourceTree = "<group>"; };
+		712B70CEBFD8E325CFD8FF7D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		712B7120E2F6543BFD0DFCDE /* RKNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKNotificationCenter.h; sourceTree = "<group>"; };
+		712B71519891CF207525280A /* RKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRootViewController.m; path = ../RKRootViewController.m; sourceTree = "<group>"; };
+		712B724D089BB92AA02B0D58 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		712B726E40C529269FA7B1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		712B734BE4E0C27D9D6CF701 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		712B741204DD66D9C92C2CAC /* RKConnectionAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKConnectionAgent.m; sourceTree = "<group>"; };
+		712B7455D9055E25D8F2EFEA /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		712B745C984A8F80A6C03C77 /* RKSessionAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSessionAgent.h; sourceTree = "<group>"; };
+		712B74612E62805F8272C1C8 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		712B74CD89C3F653E9A4708D /* RKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKConstants.h; sourceTree = "<group>"; };
+		712B74DC4E7646648A533243 /* RKNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKNotificationCenter.m; sourceTree = "<group>"; };
+		712B751D921315AC18D9EBC7 /* RKLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKLeftMenuViewController.h; path = ../RKLeftMenuViewController.h; sourceTree = "<group>"; };
+		712B755B1480053E4238AB15 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		712B75610C86E237A56DAC06 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		712B75D3CA50E0FE3B3ABABC /* RKSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSignupViewController.h; sourceTree = "<group>"; };
+		712B776C3DAF557CECFF2004 /* RiskAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskAppTests.m; sourceTree = "<group>"; };
+		712B776DE851D47891AE5055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		712B783FE64F84EDB1F1AE14 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		712B7843A2DEA3A6765B8DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		712B78DA148B9423C88A0D7C /* RKApiFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKApiFactory.m; sourceTree = "<group>"; };
+		712B7916B637AA2A9ABF6AF2 /* RKLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKLeftMenuViewController.m; path = ../RKLeftMenuViewController.m; sourceTree = "<group>"; };
+		712B7A28D059B87F6E75E01C /* RKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKLoginViewController.m; sourceTree = "<group>"; };
+		712B7A63D8EA5738F259D316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		712B7ACDBB8CC386835D58F8 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		712B7B4719F5B4ACF5B79D30 /* RKSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSignupViewController.m; sourceTree = "<group>"; };
+		712B7B87431829E304C9994D /* RKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRootViewController.h; path = ../RKRootViewController.h; sourceTree = "<group>"; };
+		712B7BCF8FB7FFCB22608122 /* RKConnectionAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKConnectionAgent.h; sourceTree = "<group>"; };
+		712B7C089E9ADA54547B1937 /* RKDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKDefine.h; sourceTree = "<group>"; };
+		712B7C0CE2AFF838643F8069 /* RKLoginAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKLoginAgent.h; sourceTree = "<group>"; };
+		712B7C8276F591E3DE5ED945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		712B7CB748FDF8AF915C90DC /* RiskAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskAppUITests.m; sourceTree = "<group>"; };
+		712B7D3AA1D529F11010AEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		712B7E30D21A241F2859382D /* RKLoginAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKLoginAgent.m; sourceTree = "<group>"; };
+		712B7E351C20C3A3EE41E5CC /* RKApiFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKApiFactory.h; sourceTree = "<group>"; };
+		712B7E40D5D714C339BA61B7 /* RKSessionAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSessionAgent.m; sourceTree = "<group>"; };
+		712B7EECE11058AF6785FBCC /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		712B7FADE79292E759689DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		712B7FE00D4C371DCEF2F098 /* RKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKLoginViewController.h; sourceTree = "<group>"; };
+		7ED9DAB91BBC3FDD00B58255 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7EE986B51BBA43490019A58A /* RKPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKPhotoViewController.h; path = Controller/RKPhotoViewController.h; sourceTree = "<group>"; };
+		7EE986B61BBA43490019A58A /* RKPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKPhotoViewController.m; path = Controller/RKPhotoViewController.m; sourceTree = "<group>"; };
+		7EE986B81BBA62830019A58A /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Alpha.h"; path = "../../../../../Downloads/iReporter/iReporter/UIImage+Alpha.h"; sourceTree = "<group>"; };
+		7EE986B91BBA62830019A58A /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Alpha.m"; path = "../../../../../Downloads/iReporter/iReporter/UIImage+Alpha.m"; sourceTree = "<group>"; };
+		7EE986BA1BBA62830019A58A /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "../../../../../Downloads/iReporter/iReporter/UIImage+Resize.h"; sourceTree = "<group>"; };
+		7EE986BB1BBA62830019A58A /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "../../../../../Downloads/iReporter/iReporter/UIImage+Resize.m"; sourceTree = "<group>"; };
+		7EE986BC1BBA62830019A58A /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+RoundedCorner.h"; path = "../../../../../Downloads/iReporter/iReporter/UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		7EE986BD1BBA62830019A58A /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RoundedCorner.m"; path = "../../../../../Downloads/iReporter/iReporter/UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		7EE986BE1BBA62830019A58A /* UIAlertView+error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+error.h"; path = "../../../../../Downloads/iReporter/iReporter/UIAlertView+error.h"; sourceTree = "<group>"; };
+		7EE986BF1BBA62830019A58A /* UIAlertView+error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+error.m"; path = "../../../../../Downloads/iReporter/iReporter/UIAlertView+error.m"; sourceTree = "<group>"; };
+		7EE986C41BBA788C0019A58A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "../../../../../Downloads/MBProgressHUD-master/MBProgressHUD.h"; sourceTree = "<group>"; };
+		7EE986C51BBA788C0019A58A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "../../../../../Downloads/MBProgressHUD-master/MBProgressHUD.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		712B769CA2C1928745246AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712B76EBBF5718BA7D68442E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712B79CFD959BB8A0BFDA959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED9DABA1BBC3FDD00B58255 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		712B70AB8FE6A72F645C1DD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				712B7B87431829E304C9994D /* RKRootViewController.h */,
+				712B71519891CF207525280A /* RKRootViewController.m */,
+				712B751D921315AC18D9EBC7 /* RKLeftMenuViewController.h */,
+				712B7916B637AA2A9ABF6AF2 /* RKLeftMenuViewController.m */,
+				712B734BE4E0C27D9D6CF701 /* ViewController.m */,
+				712B75610C86E237A56DAC06 /* ViewController.h */,
+				712B783FE64F84EDB1F1AE14 /* RECommonFunctions.m */,
+				712B7455D9055E25D8F2EFEA /* RECommonFunctions.h */,
+				712B74612E62805F8272C1C8 /* RESideMenu.m */,
+				712B7ACDBB8CC386835D58F8 /* RESideMenu.h */,
+				712B755B1480053E4238AB15 /* UIViewController+RESideMenu.m */,
+				712B7EECE11058AF6785FBCC /* UIViewController+RESideMenu.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		712B74B24CF3BB6ED3713779 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				712B7FADE79292E759689DC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		712B755CB598C46FB2B11C3F = {
+			isa = PBXGroup;
+			children = (
+				7ED9DAB91BBC3FDD00B58255 /* CoreData.framework */,
+				712B764B0917227631F0E8FD /* Products */,
+				712B7EC6DC4B1C9A53D791C5 /* RiskApp */,
+				712B79A81FFAD3BB52DFCB46 /* RiskAppTests */,
+				712B76165C2DDA737D1D6647 /* RiskAppUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		712B76165C2DDA737D1D6647 /* RiskAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				712B7C8276F591E3DE5ED945 /* Info.plist */,
+				712B7CB748FDF8AF915C90DC /* RiskAppUITests.m */,
+			);
+			path = RiskAppUITests;
+			sourceTree = "<group>";
+		};
+		712B764B0917227631F0E8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		712B79A81FFAD3BB52DFCB46 /* RiskAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				712B7843A2DEA3A6765B8DB2 /* Info.plist */,
+				712B776C3DAF557CECFF2004 /* RiskAppTests.m */,
+			);
+			path = RiskAppTests;
+			sourceTree = "<group>";
+		};
+		712B7D95F6B827C8CBC5001D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7EE986C41BBA788C0019A58A /* MBProgressHUD.h */,
+				7EE986C51BBA788C0019A58A /* MBProgressHUD.m */,
+				7EE986B81BBA62830019A58A /* UIImage+Alpha.h */,
+				7EE986B91BBA62830019A58A /* UIImage+Alpha.m */,
+				7EE986BA1BBA62830019A58A /* UIImage+Resize.h */,
+				7EE986BB1BBA62830019A58A /* UIImage+Resize.m */,
+				7EE986BC1BBA62830019A58A /* UIImage+RoundedCorner.h */,
+				7EE986BD1BBA62830019A58A /* UIImage+RoundedCorner.m */,
+				7EE986BE1BBA62830019A58A /* UIAlertView+error.h */,
+				7EE986BF1BBA62830019A58A /* UIAlertView+error.m */,
+				712B7C089E9ADA54547B1937 /* RKDefine.h */,
+				712B74CD89C3F653E9A4708D /* RKConstants.h */,
+				712B7072BC85A2B104F1492C /* RKConstants.m */,
+				712B7BCF8FB7FFCB22608122 /* RKConnectionAgent.h */,
+				712B741204DD66D9C92C2CAC /* RKConnectionAgent.m */,
+				712B7C0CE2AFF838643F8069 /* RKLoginAgent.h */,
+				712B7E30D21A241F2859382D /* RKLoginAgent.m */,
+				712B7E351C20C3A3EE41E5CC /* RKApiFactory.h */,
+				712B78DA148B9423C88A0D7C /* RKApiFactory.m */,
+				712B7120E2F6543BFD0DFCDE /* RKNotificationCenter.h */,
+				712B74DC4E7646648A533243 /* RKNotificationCenter.m */,
+				712B724D089BB92AA02B0D58 /* AppDelegate.h */,
+				712B70CEBFD8E325CFD8FF7D /* AppDelegate.m */,
+				712B7E40D5D714C339BA61B7 /* RKSessionAgent.m */,
+				712B745C984A8F80A6C03C77 /* RKSessionAgent.h */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		712B7EC6DC4B1C9A53D791C5 /* RiskApp */ = {
+			isa = PBXGroup;
+			children = (
+				712B7A63D8EA5738F259D316 /* Info.plist */,
+				712B776DE851D47891AE5055 /* Assets.xcassets */,
+				712B76D44C7954719D855A40 /* LaunchScreen.storyboard */,
+				712B74B24CF3BB6ED3713779 /* Supporting Files */,
+				712B7956A128332BCE511F18 /* Main.storyboard */,
+				712B7D95F6B827C8CBC5001D /* Shared */,
+				712B70AB8FE6A72F645C1DD2 /* Controller */,
+				7ED9DAB81BBC1D9D00B58255 /* ViewController */,
+			);
+			path = RiskApp;
+			sourceTree = "<group>";
+		};
+		7ED9DAB81BBC1D9D00B58255 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				712B7FE00D4C371DCEF2F098 /* RKLoginViewController.h */,
+				712B7A28D059B87F6E75E01C /* RKLoginViewController.m */,
+				712B75D3CA50E0FE3B3ABABC /* RKSignupViewController.h */,
+				712B7B4719F5B4ACF5B79D30 /* RKSignupViewController.m */,
+				7EE986B51BBA43490019A58A /* RKPhotoViewController.h */,
+				7EE986B61BBA43490019A58A /* RKPhotoViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		712B75E591C33825E4DE8A84 /* RiskApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 712B7F52D9627F91480A9942 /* Build configuration list for PBXNativeTarget "RiskApp" */;
+			buildPhases = (
+				712B7796E7BC32DAB4C1A2D9 /* Sources */,
+				712B79CFD959BB8A0BFDA959 /* Frameworks */,
+				712B770EF3FB251CE2B91054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RiskApp;
+			productName = RiskApp;
+			productType = "com.apple.product-type.application";
+		};
+		712B793846F4F74C85F3E326 /* RiskAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 712B7D932578A9C0F1502D85 /* Build configuration list for PBXNativeTarget "RiskAppTests" */;
+			buildPhases = (
+				712B78CE0994B0A2BC52F619 /* Sources */,
+				712B769CA2C1928745246AF7 /* Frameworks */,
+				712B735AA3A9E4CFA752E8AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				712B75B020BC8980B0E6B056 /* PBXTargetDependency */,
+			);
+			name = RiskAppTests;
+			productName = RiskAppTests;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		712B7DD2781364304A176571 /* RiskAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 712B7EB083E7311057656850 /* Build configuration list for PBXNativeTarget "RiskAppUITests" */;
+			buildPhases = (
+				712B7277AC059FE3414C2662 /* Sources */,
+				712B76EBBF5718BA7D68442E /* Frameworks */,
+				712B7BBF46869A814346110D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				712B76983CB6207CC0C6B820 /* PBXTargetDependency */,
+			);
+			name = RiskAppUITests;
+			productName = RiskAppUITests;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		712B7DDDDA3A1610CA2E8436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Deloitte;
+				TargetAttributes = {
+					712B75E591C33825E4DE8A84 = {
+						DevelopmentTeam = 47BAAVYY24;
+					};
+				};
+			};
+			buildConfigurationList = 712B7E3BF506C38E5048A161 /* Build configuration list for PBXProject "RiskApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 712B755CB598C46FB2B11C3F;
+			productRefGroup = 712B764B0917227631F0E8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				712B75E591C33825E4DE8A84 /* RiskApp */,
+				712B793846F4F74C85F3E326 /* RiskAppTests */,
+				712B7DD2781364304A176571 /* RiskAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		712B735AA3A9E4CFA752E8AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712B770EF3FB251CE2B91054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B7C20AE889B7CADE7CCA9 /* Assets.xcassets in Resources */,
+				712B799023E758BE94E99BBD /* LaunchScreen.storyboard in Resources */,
+				712B779574C853D4AC6B7A71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712B7BBF46869A814346110D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		712B7277AC059FE3414C2662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B799CBA77C40EDF7D49C5 /* RiskAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712B7796E7BC32DAB4C1A2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B7E2B59BC1E2BB547A994 /* main.m in Sources */,
+				712B76B6FDF9E89758E172C5 /* RKLoginAgent.m in Sources */,
+				7EE986C61BBA788C0019A58A /* MBProgressHUD.m in Sources */,
+				7EE986B71BBA43490019A58A /* RKPhotoViewController.m in Sources */,
+				712B78532A646B2707090ED2 /* RKApiFactory.m in Sources */,
+				712B73B3235DCF841BE79D6B /* RKNotificationCenter.m in Sources */,
+				712B794812D9718DC5E04F9A /* RKConnectionAgent.m in Sources */,
+				712B7C4FA0B7E7B95DC67E41 /* RKConstants.m in Sources */,
+				712B7E9C0DF3CB817349FCBE /* ViewController.m in Sources */,
+				7EE986C31BBA62840019A58A /* UIAlertView+error.m in Sources */,
+				712B79F51B123AC5DFB9157E /* RECommonFunctions.m in Sources */,
+				7EE986C11BBA62840019A58A /* UIImage+Resize.m in Sources */,
+				712B7921DF8D441C905A8D2E /* RESideMenu.m in Sources */,
+				712B7F1559CE01D46542A1B2 /* UIViewController+RESideMenu.m in Sources */,
+				712B7294EA66DC53D2CAE0E4 /* RKRootViewController.m in Sources */,
+				712B7F41A84D07EB8C3E9285 /* RKLoginViewController.m in Sources */,
+				712B72346AE2104059948DD0 /* RKLeftMenuViewController.m in Sources */,
+				7EE986C21BBA62840019A58A /* UIImage+RoundedCorner.m in Sources */,
+				712B75235C71D21B32061E4B /* AppDelegate.m in Sources */,
+				712B761BADFFC8D549A4CC81 /* RKSignupViewController.m in Sources */,
+				7EE986C01BBA62830019A58A /* UIImage+Alpha.m in Sources */,
+				712B75E754D4B0E0537348CA /* RKSessionAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712B78CE0994B0A2BC52F619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712B782E03DCC8B78580FA3B /* RiskAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		712B75B020BC8980B0E6B056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 712B75E591C33825E4DE8A84 /* RiskApp */;
+			targetProxy = 712B7145F9E416EB7D43122B /* PBXContainerItemProxy */;
+		};
+		712B76983CB6207CC0C6B820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 712B75E591C33825E4DE8A84 /* RiskApp */;
+			targetProxy = 712B7D9519794A9D0B8BF179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		712B76D44C7954719D855A40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				712B7D3AA1D529F11010AEB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		712B7956A128332BCE511F18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				712B726E40C529269FA7B1B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		712B74C5447EF29B617BFFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Singapore Telecommunications Limited";
+				INFOPLIST_FILE = RiskApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.test.risk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		712B7544C29CF4ECF1F58C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		712B77A253AE87C179CDFB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/";
+				INFOPLIST_FILE = RiskAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.test.___PACKAGENAMEASRFC1034IDENTIFIER___";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		712B78FA5E759B0FF4A3F992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/";
+				INFOPLIST_FILE = RiskAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.test.___PACKAGENAMEASRFC1034IDENTIFIER___";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		712B79CABF4D23DAAEC58FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Singapore Telecommunications Limited";
+				INFOPLIST_FILE = RiskApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.test.risk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		712B7AB2FD35F916CEF7FC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		712B7DAB956C7B6C4AFDE670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/";
+				INFOPLIST_FILE = RiskAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.test.___PACKAGENAMEASRFC1034IDENTIFIER___";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		712B7EA7701679835D6E9D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/";
+				INFOPLIST_FILE = RiskAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.test.___PACKAGENAMEASRFC1034IDENTIFIER___";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		712B7D932578A9C0F1502D85 /* Build configuration list for PBXNativeTarget "RiskAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712B78FA5E759B0FF4A3F992 /* Debug */,
+				712B7DAB956C7B6C4AFDE670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		712B7E3BF506C38E5048A161 /* Build configuration list for PBXProject "RiskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712B7AB2FD35F916CEF7FC51 /* Debug */,
+				712B7544C29CF4ECF1F58C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		712B7EB083E7311057656850 /* Build configuration list for PBXNativeTarget "RiskAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712B7EA7701679835D6E9D30 /* Debug */,
+				712B77A253AE87C179CDFB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		712B7F52D9627F91480A9942 /* Build configuration list for PBXNativeTarget "RiskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712B74C5447EF29B617BFFFA /* Debug */,
+				712B79CABF4D23DAAEC58FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 712B7DDDDA3A1610CA2E8436 /* Project object */;
+}
