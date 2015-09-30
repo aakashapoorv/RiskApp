@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		712B72346AE2104059948DD0 /* RKLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7916B637AA2A9ABF6AF2 /* RKLeftMenuViewController.m */; };
-		712B7294EA66DC53D2CAE0E4 /* RKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B71519891CF207525280A /* RKRootViewController.m */; };
 		712B73B3235DCF841BE79D6B /* RKNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B74DC4E7646648A533243 /* RKNotificationCenter.m */; };
 		712B75235C71D21B32061E4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B70CEBFD8E325CFD8FF7D /* AppDelegate.m */; };
 		712B75E754D4B0E0537348CA /* RKSessionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7E40D5D714C339BA61B7 /* RKSessionAgent.m */; };
@@ -29,7 +27,9 @@
 		712B7F1559CE01D46542A1B2 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B755B1480053E4238AB15 /* UIViewController+RESideMenu.m */; };
 		712B7F41A84D07EB8C3E9285 /* RKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B7A28D059B87F6E75E01C /* RKLoginViewController.m */; };
 		7ED9DABA1BBC3FDD00B58255 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED9DAB91BBC3FDD00B58255 /* CoreData.framework */; };
-		7EE986B71BBA43490019A58A /* RKPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE986B61BBA43490019A58A /* RKPhotoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED9DAC91BBC596200B58255 /* RKLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9DAC61BBC596200B58255 /* RKLeftMenuViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED9DACA1BBC596200B58255 /* RKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9DAC81BBC596200B58255 /* RKRootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED9DACD1BBC59A000B58255 /* RKPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED9DACC1BBC59A000B58255 /* RKPhotoViewController.m */; settings = {ASSET_TAGS = (); }; };
 		7EE986C01BBA62830019A58A /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE986B91BBA62830019A58A /* UIImage+Alpha.m */; settings = {ASSET_TAGS = (); }; };
 		7EE986C11BBA62840019A58A /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE986BB1BBA62830019A58A /* UIImage+Resize.m */; settings = {ASSET_TAGS = (); }; };
 		7EE986C21BBA62840019A58A /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE986BD1BBA62830019A58A /* UIImage+RoundedCorner.m */; settings = {ASSET_TAGS = (); }; };
@@ -58,7 +58,6 @@
 		712B7072BC85A2B104F1492C /* RKConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKConstants.m; sourceTree = "<group>"; };
 		712B70CEBFD8E325CFD8FF7D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		712B7120E2F6543BFD0DFCDE /* RKNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKNotificationCenter.h; sourceTree = "<group>"; };
-		712B71519891CF207525280A /* RKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKRootViewController.m; path = ../RKRootViewController.m; sourceTree = "<group>"; };
 		712B724D089BB92AA02B0D58 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		712B726E40C529269FA7B1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		712B734BE4E0C27D9D6CF701 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -68,7 +67,6 @@
 		712B74612E62805F8272C1C8 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
 		712B74CD89C3F653E9A4708D /* RKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKConstants.h; sourceTree = "<group>"; };
 		712B74DC4E7646648A533243 /* RKNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKNotificationCenter.m; sourceTree = "<group>"; };
-		712B751D921315AC18D9EBC7 /* RKLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKLeftMenuViewController.h; path = ../RKLeftMenuViewController.h; sourceTree = "<group>"; };
 		712B755B1480053E4238AB15 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
 		712B75610C86E237A56DAC06 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		712B75D3CA50E0FE3B3ABABC /* RKSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSignupViewController.h; sourceTree = "<group>"; };
@@ -77,12 +75,10 @@
 		712B783FE64F84EDB1F1AE14 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
 		712B7843A2DEA3A6765B8DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		712B78DA148B9423C88A0D7C /* RKApiFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKApiFactory.m; sourceTree = "<group>"; };
-		712B7916B637AA2A9ABF6AF2 /* RKLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKLeftMenuViewController.m; path = ../RKLeftMenuViewController.m; sourceTree = "<group>"; };
 		712B7A28D059B87F6E75E01C /* RKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKLoginViewController.m; sourceTree = "<group>"; };
 		712B7A63D8EA5738F259D316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		712B7ACDBB8CC386835D58F8 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
 		712B7B4719F5B4ACF5B79D30 /* RKSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSignupViewController.m; sourceTree = "<group>"; };
-		712B7B87431829E304C9994D /* RKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKRootViewController.h; path = ../RKRootViewController.h; sourceTree = "<group>"; };
 		712B7BCF8FB7FFCB22608122 /* RKConnectionAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKConnectionAgent.h; sourceTree = "<group>"; };
 		712B7C089E9ADA54547B1937 /* RKDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKDefine.h; sourceTree = "<group>"; };
 		712B7C0CE2AFF838643F8069 /* RKLoginAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKLoginAgent.h; sourceTree = "<group>"; };
@@ -96,8 +92,12 @@
 		712B7FADE79292E759689DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		712B7FE00D4C371DCEF2F098 /* RKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKLoginViewController.h; sourceTree = "<group>"; };
 		7ED9DAB91BBC3FDD00B58255 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		7EE986B51BBA43490019A58A /* RKPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKPhotoViewController.h; path = Controller/RKPhotoViewController.h; sourceTree = "<group>"; };
-		7EE986B61BBA43490019A58A /* RKPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKPhotoViewController.m; path = Controller/RKPhotoViewController.m; sourceTree = "<group>"; };
+		7ED9DAC51BBC596200B58255 /* RKLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKLeftMenuViewController.h; sourceTree = "<group>"; };
+		7ED9DAC61BBC596200B58255 /* RKLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKLeftMenuViewController.m; sourceTree = "<group>"; };
+		7ED9DAC71BBC596200B58255 /* RKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKRootViewController.h; sourceTree = "<group>"; };
+		7ED9DAC81BBC596200B58255 /* RKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKRootViewController.m; sourceTree = "<group>"; };
+		7ED9DACB1BBC59A000B58255 /* RKPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKPhotoViewController.h; sourceTree = "<group>"; };
+		7ED9DACC1BBC59A000B58255 /* RKPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKPhotoViewController.m; sourceTree = "<group>"; };
 		7EE986B81BBA62830019A58A /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Alpha.h"; path = "../../../../../Downloads/iReporter/iReporter/UIImage+Alpha.h"; sourceTree = "<group>"; };
 		7EE986B91BBA62830019A58A /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Alpha.m"; path = "../../../../../Downloads/iReporter/iReporter/UIImage+Alpha.m"; sourceTree = "<group>"; };
 		7EE986BA1BBA62830019A58A /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "../../../../../Downloads/iReporter/iReporter/UIImage+Resize.h"; sourceTree = "<group>"; };
@@ -139,10 +139,10 @@
 		712B70AB8FE6A72F645C1DD2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				712B7B87431829E304C9994D /* RKRootViewController.h */,
-				712B71519891CF207525280A /* RKRootViewController.m */,
-				712B751D921315AC18D9EBC7 /* RKLeftMenuViewController.h */,
-				712B7916B637AA2A9ABF6AF2 /* RKLeftMenuViewController.m */,
+				7ED9DAC51BBC596200B58255 /* RKLeftMenuViewController.h */,
+				7ED9DAC61BBC596200B58255 /* RKLeftMenuViewController.m */,
+				7ED9DAC71BBC596200B58255 /* RKRootViewController.h */,
+				7ED9DAC81BBC596200B58255 /* RKRootViewController.m */,
 				712B734BE4E0C27D9D6CF701 /* ViewController.m */,
 				712B75610C86E237A56DAC06 /* ViewController.h */,
 				712B783FE64F84EDB1F1AE14 /* RECommonFunctions.m */,
@@ -253,8 +253,8 @@
 				712B7A28D059B87F6E75E01C /* RKLoginViewController.m */,
 				712B75D3CA50E0FE3B3ABABC /* RKSignupViewController.h */,
 				712B7B4719F5B4ACF5B79D30 /* RKSignupViewController.m */,
-				7EE986B51BBA43490019A58A /* RKPhotoViewController.h */,
-				7EE986B61BBA43490019A58A /* RKPhotoViewController.m */,
+				7ED9DACB1BBC59A000B58255 /* RKPhotoViewController.h */,
+				7ED9DACC1BBC59A000B58255 /* RKPhotoViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -388,25 +388,25 @@
 				712B7E2B59BC1E2BB547A994 /* main.m in Sources */,
 				712B76B6FDF9E89758E172C5 /* RKLoginAgent.m in Sources */,
 				7EE986C61BBA788C0019A58A /* MBProgressHUD.m in Sources */,
-				7EE986B71BBA43490019A58A /* RKPhotoViewController.m in Sources */,
 				712B78532A646B2707090ED2 /* RKApiFactory.m in Sources */,
 				712B73B3235DCF841BE79D6B /* RKNotificationCenter.m in Sources */,
 				712B794812D9718DC5E04F9A /* RKConnectionAgent.m in Sources */,
 				712B7C4FA0B7E7B95DC67E41 /* RKConstants.m in Sources */,
 				712B7E9C0DF3CB817349FCBE /* ViewController.m in Sources */,
+				7ED9DACA1BBC596200B58255 /* RKRootViewController.m in Sources */,
 				7EE986C31BBA62840019A58A /* UIAlertView+error.m in Sources */,
 				712B79F51B123AC5DFB9157E /* RECommonFunctions.m in Sources */,
 				7EE986C11BBA62840019A58A /* UIImage+Resize.m in Sources */,
 				712B7921DF8D441C905A8D2E /* RESideMenu.m in Sources */,
 				712B7F1559CE01D46542A1B2 /* UIViewController+RESideMenu.m in Sources */,
-				712B7294EA66DC53D2CAE0E4 /* RKRootViewController.m in Sources */,
 				712B7F41A84D07EB8C3E9285 /* RKLoginViewController.m in Sources */,
-				712B72346AE2104059948DD0 /* RKLeftMenuViewController.m in Sources */,
 				7EE986C21BBA62840019A58A /* UIImage+RoundedCorner.m in Sources */,
 				712B75235C71D21B32061E4B /* AppDelegate.m in Sources */,
+				7ED9DACD1BBC59A000B58255 /* RKPhotoViewController.m in Sources */,
 				712B761BADFFC8D549A4CC81 /* RKSignupViewController.m in Sources */,
 				7EE986C01BBA62830019A58A /* UIImage+Alpha.m in Sources */,
 				712B75E754D4B0E0537348CA /* RKSessionAgent.m in Sources */,
+				7ED9DAC91BBC596200B58255 /* RKLeftMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

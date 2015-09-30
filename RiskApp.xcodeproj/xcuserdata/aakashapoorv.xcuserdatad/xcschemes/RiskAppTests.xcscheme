@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "712B793846F4F74C85F3E326"
-               BuildableName = "RiskAppTests.xctest"
+               BuildableName = "RiskAppTests"
                BlueprintName = "RiskAppTests"
                ReferencedContainer = "container:RiskApp.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "712B793846F4F74C85F3E326"
-               BuildableName = "RiskAppTests.xctest"
+               BuildableName = "RiskAppTests"
                BlueprintName = "RiskAppTests"
                ReferencedContainer = "container:RiskApp.xcodeproj">
             </BuildableReference>
