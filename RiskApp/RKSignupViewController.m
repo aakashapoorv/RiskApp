@@ -17,12 +17,13 @@
 
 // calls signup method and show progress spinner
 - (IBAction)signup:(id)sender {
-
+    
     if (![self.password.text isEqualToString:self.paswordAgain.text])
     {
+        
         [self alertStatus:@"Password did'nt match." :@"Error!" :1];
     } else {
-
+        
         MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
         hud.labelText = @"Signing Up";
 
@@ -57,11 +58,7 @@
 // Show alert message
 - (void) alertStatus:(NSString *)msg :(NSString *)title :(int) tag
 {
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title
-                                                        message:msg
-                                                       delegate:self
-                                              cancelButtonTitle:@"Ok"
-                                              otherButtonTitles:nil, nil];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title message:msg delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
     alertView.tag = tag;
     [alertView show];
 }

@@ -18,8 +18,9 @@
 @implementation RKLoginViewController
 
 // calls doSignIn method and show progress spinner
-- (IBAction)signIn:(id)sender {
-
+- (IBAction)signIn:(id)sender
+{
+    
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.labelText = @"Logging in";
 

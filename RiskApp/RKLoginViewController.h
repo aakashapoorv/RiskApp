@@ -11,7 +11,7 @@
 @interface RKLoginViewController : UIViewController
 
 - (IBAction)signIn:(id)sender;
-@property (weak, nonatomic) IBOutlet UITextField *email;
-@property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UITextField *email; // to get email
+@property (weak, nonatomic) IBOutlet UITextField *password; // to get password
 
 @end

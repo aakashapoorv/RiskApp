@@ -11,10 +11,10 @@
 
 @interface RKSignupViewController : UIViewController <UIImagePickerControllerDelegate>
 
-@property (weak, nonatomic) IBOutlet UITextField *fullname;
-@property (weak, nonatomic) IBOutlet UITextField *password;
-@property (weak, nonatomic) IBOutlet UITextField *email;
-@property (weak, nonatomic) IBOutlet UITextField *paswordAgain;
+@property (weak, nonatomic) IBOutlet UITextField *fullname; // to get full name
+@property (weak, nonatomic) IBOutlet UITextField *password; // to get password
+@property (weak, nonatomic) IBOutlet UITextField *email; // to get email
+@property (weak, nonatomic) IBOutlet UITextField *paswordAgain; // to to verify password
 - (IBAction)signup:(id)sender;
 
 @end
